@@ -142,3 +142,7 @@ nav a {
     color: #fff;
 }
 /********** Footer CSS Ends **********/
+
+* {
+    scroll-behavior: smooth;
+}
