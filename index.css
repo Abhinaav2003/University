@@ -31,19 +31,27 @@ html, body {
 /********** Logo CSS Ends **********/
 
 /********** Main Menu CSS Starts **********/  
-nav {
-    width: 100%;
-    float: left;
-    background: #ff5722;
-    padding:15px 0px;
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: #36303fc9;
+    padding: 10px 0;
 }
-nav a {
-    color: #fff;
+
+nav ul li {
+    display: inline;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul li a {
     text-decoration: none;
-    font-size: 17px;
-    border-right: 1px solid #ffc3c3;
-    padding:2px 20px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Rowdies', cursive;
 }
+
 /********** Main Menu CSS Ends **********/
 
 /********** Slider CSS Starts **********/  
